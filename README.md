@@ -1,8 +1,16 @@
 # geo_tracker
 
-Geolocator listens to the GPS signal and saves it in GPX format.
+Not maintained.
 
-File location: /data/data/io.github.onliniak.geo_tracker/files/my.gpx
+Geo Tracker listens to the GPS signal and saves it in GPX format.
+
+File location: android/data/io.github.onliniak.geo_tracker/files/my.gpx
+
+## PL | Motivation
+
+Sprawdzałem kilka aplikacji nagrywających lokalizację. Z jakiegoś powodu zaraz po przejściu do
+MAPS.me, czy Magic Earth przestawały zapisywać trasę. W kilka godzin stworzyłem aplikację testową.
+Teraz używam OSMAnd, więc raczej nie będzie rozwijana.
 
 ## Getting Started
 
