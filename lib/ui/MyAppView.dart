@@ -28,7 +28,8 @@ class MyApp extends StatelessWidget {
                     return Center(
                         child: MaterialButton(
                             onPressed: () {
-                              writeCounter('''
+                              writeGPX('''
+                              
     </trkseg>
   </trk>
 </gpx>''', false);

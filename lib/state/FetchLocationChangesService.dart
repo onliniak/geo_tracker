@@ -9,10 +9,9 @@ void saveLocationAsGPX(LocationSettings locationSettings) {
   StreamSubscription<Position> positionStream =
       Geolocator.getPositionStream(locationSettings: locationSettings)
           .listen((Position? position) {
-    writeCounter('''
-<trkpt lat="${position?.latitude.toString()}" lon="${position?.longitude.toString()}">
-<time>${time.year}-${time.month}-${time.day}T${time.hour}:${time.minute}:${time.second}Z</time>
-</trkpt>
-      ''', false);
+    writeGPX('''
+    
+      <trkpt lat="${position?.latitude.toString()}" lon="${position?.longitude.toString()}"><time>${time.year}-${time.month}-${time.day}T${time.hour}:${time.minute}:${time.second}Z</time></trkpt>''',
+        false);
   });
 }
