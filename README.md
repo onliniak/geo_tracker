@@ -12,6 +12,11 @@ Sprawdzałem kilka aplikacji nagrywających lokalizację. Z jakiegoś powodu zar
 MAPS.me, czy Magic Earth przestawały zapisywać trasę. W kilka godzin stworzyłem aplikację testową.
 Teraz używam OSMAnd, więc raczej nie będzie rozwijana.
 
+Problem w tym, że na części telefonów (stara Motorola + LineageOS) takie aplikacje będą działać bez
+większych problemów. Za to na innych (Xiaomi) można mieć tylko jedną usługę w tle.
+
+Więcej informacji: https://dontkillmyapp.com/
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
