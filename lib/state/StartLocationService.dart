@@ -40,7 +40,7 @@ Future<Position> determinePosition() async {
     locationSettings = AndroidSettings(
         accuracy: LocationAccuracy.high,
         distanceFilter: 0,
-        forceLocationManager: true,
+        forceLocationManager: false,
         intervalDuration: const Duration(seconds: 10),
         //(Optional) Set foreground notification config to keep the app alive
         //when going to the background
